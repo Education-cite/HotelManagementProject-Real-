@@ -151,6 +151,7 @@ public class Login extends javax.swing.JFrame {
             // dispose();
             new Home().setVisible(true);
             this.dispose();
+            
         } else {
 
             JOptionPane.showMessageDialog(null, "Invalid userName or password");
